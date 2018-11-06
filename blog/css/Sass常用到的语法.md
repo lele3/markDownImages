@@ -1,16 +1,14 @@
 <center><h2>Sass常用到的语法</h2></center>
 
-- ####定义变量
+- #### 定义变量
 
   假设一个css文件中有统一的颜色配置，且好多处都被用到,这时候可以定义一个颜色变量
 
   ```scss
-  <style lang='scss'>
   	$color: 'red';
-      body {
-  		color: $color
-      }
-  </style>
+    body {
+      color: $color
+    }
   ```
 
 - #### 支持嵌套
@@ -108,7 +106,7 @@
   }
   ```
 
-- ####`@if ... @else`
+- #### `@if ... @else`
 
   在所有的语言中，基本上都有 if…else的语法，Sass也不列外，意义和其他语言是完全一样的。
 
