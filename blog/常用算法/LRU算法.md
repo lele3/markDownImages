@@ -14,11 +14,11 @@ LRU 全称 Least Recently Used, 也就是最近最少使用的意思，是一种
 
 首先，哈希表是由若干个key-value所组成的，在“逻辑”上，这些key-value是无所谓的排列顺序所组成的，谁先谁后都一样。
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/NtO5sialJZGpzr3eMdzxP8iawGvibB1dc8uA8sEzFj9LvfDtj8GG0h0d444S9oVGHvw8WSLpceyT1j7kRKT7lpicLw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](https://github.com/lele3/markDownImages/raw/master/images/%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95/LRU%E7%AE%97%E6%B3%95/1.png)
 
 在哈希链表当中，这些Key-Value不再是彼此无关的存在，而是被一个链条串了起来。每一个Key-Value都具有它的前驱Key-Value、后继Key-Value，就像双向链表中的节点一样。
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/NtO5sialJZGpzr3eMdzxP8iawGvibB1dc8uOBxcqEUTZce68tYHHC4Mbt6VbZFlGfzKXqoWzxxKhuglf4x2KiaN4Lw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![img](https://github.com/lele3/markDownImages/raw/master/images/%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95/LRU%E7%AE%97%E6%B3%95/2.png)
 
 这样，原本无序的哈希表就拥有固定的排列顺序。
 
