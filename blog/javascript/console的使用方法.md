@@ -11,7 +11,7 @@ console.debug('我是个调试')   // 在控制台打印自定义调试信息
 console.clear()             // 清空控制台
 ```
 
-![1](/Users/simple/Documents/code/git/git_my/markDownImages/images/javascript/console的使用方法/1.jpg)
+![1](https://github.com/lele3/markDownImages/raw/master/images/javascript/console%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/1.jpg)
 
 不知道为什么我在Chrome中 `console.log('我是个调试')` 有问题
 
@@ -30,7 +30,7 @@ console.log('%c自定义样式', 'font-size: 30px; color: #00f')
 console.log('%c我是%c自定义样式', 'font-size: 30px; color: green', 'font-size: 10px; color: red')
 ```
 
-![2](/Users/simple/Documents/code/git/git_my/markDownImages/images/javascript/console的使用方法/2.png)
+![2](https://github.com/lele3/markDownImages/raw/master/images/javascript/console%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/2.png)
 
 
 
@@ -67,7 +67,7 @@ console.log(stu)
 console.table(stu)
 ```
 
-![3](/Users/simple/Documents/code/git/git_my/markDownImages/images/javascript/console的使用方法/3.png)
+![3](https://github.com/lele3/markDownImages/raw/master/images/javascript/console%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/3.png)
 
 
 
@@ -82,7 +82,7 @@ console.log('sub3')
 console.groupEnd('end')
 ```
 
-![4](/Users/simple/Documents/code/git/git_my/markDownImages/images/javascript/console的使用方法/4.png)
+![4](https://github.com/lele3/markDownImages/raw/master/images/javascript/console%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/4.png)
 
 
 
@@ -102,7 +102,7 @@ function fib (n) {  // 输出前n个斐波那契数列值
 fib(6)
 ```
 
-![5](/Users/simple/Documents/code/git/git_my/markDownImages/images/javascript/console的使用方法/5.png)
+![5](https://github.com/lele3/markDownImages/raw/master/images/javascript/console%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/5.png)
 
 
 
@@ -118,5 +118,5 @@ fib(100)                 // 用上述函数计算100个斐波那契数
 console.timeEnd()        // 计时结束并输出时长
 ```
 
-![6](/Users/simple/Documents/code/git/git_my/markDownImages/images/javascript/console的使用方法/6.png)
+![6](https://github.com/lele3/markDownImages/raw/master/images/javascript/console%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/6.png)
 
