@@ -5,12 +5,10 @@
   假设一个css文件中有统一的颜色配置，且好多处都被用到,这时候可以定义一个颜色变量
 
   ```scss
-  <style lang='scss'>
-  	$color: 'red';
-      body {
-  		color: $color
-      }
-  </style>
+  $color: 'red';
+  body {
+      color: $color
+  }
   ```
 
 - #### 支持嵌套
